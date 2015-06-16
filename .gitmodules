@@ -1,0 +1,3 @@
+[submodule "themes/blognetwork"]
+	path = themes/blognetwork
+	url = https://github.com/prigazzi/hexo-theme-blog-network.git
