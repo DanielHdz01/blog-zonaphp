@@ -22,13 +22,13 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archivos
-category_dir: categoria
+category_dir: categorias
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :year-:month-:title.md # File name of new posts
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -64,7 +64,16 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: blognetwork
 
+# Feeds
+feed:
+	type: atom
+	path: atom.xml
+	limit: false
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: zonaphp.com
+  user: webstudio
+  root: /home/webstudio/zonaphp_com
