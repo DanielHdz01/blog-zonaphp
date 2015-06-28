@@ -45,6 +45,11 @@ highlight:
 # Category & Tag
 default_category: editorial
 category_map:
+  Principiantes: principiantes
+  PHP Avanzado: php-avanzado
+  Prog. Orientada a Objetos: prog-orientada-a-objetos
+  Editorial: editorial
+  Templates: templates
 tag_map:
 
 # Date / Time format
