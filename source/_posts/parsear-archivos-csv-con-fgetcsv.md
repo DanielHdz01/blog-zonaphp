@@ -1,5 +1,5 @@
 title: Parsear archivos CSV con fgetcsv
-date: 2011-03-06 22:26:16
+date: 2011-03-08 22:26:16
 tags:
 category: 
     - Quick Tips

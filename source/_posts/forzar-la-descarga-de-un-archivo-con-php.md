@@ -1,5 +1,5 @@
 title: Forzar la descarga de un archivo con PHP
-date: 2013-03-06 23:45:51
+date: 2013-03-22 23:45:51
 tags:
 category: Quick Tips
 ---
