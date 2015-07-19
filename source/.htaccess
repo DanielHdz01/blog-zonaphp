@@ -1,2 +1,4 @@
-//301 Redirect Old File
-Redirect 301 /feed/ atom.xml
+RewriteEngine On
+RewriteBase /
+RewriteRule ^feed /atom.xml [R=301]
+RewriteRule ^feed/ /atom.xml [R=301]
